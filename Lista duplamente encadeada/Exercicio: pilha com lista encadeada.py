@@ -37,7 +37,7 @@ class PilhaListaEncadeada:
     def empilhar(self, valor):
         self.lista.insere_inicio(valor)
 
-    def desimpilhar(self):
+    def desempilhar(self):
         return self.lista.excluir_inicio()
 
     def pilha_vazia(self):
@@ -52,7 +52,7 @@ pilha = PilhaListaEncadeada()
 pilha.empilhar(30)
 pilha.empilhar(50)
 print(pilha.ver_topo())
-pilha.desimpilhar()
+pilha.desempilhar()
 print(pilha.ver_topo())
-pilha.desimpilhar()
+pilha.desempilhar()
 print(pilha.ver_topo())
